@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center the content vertically */
+    position: relative;
+    height: 600px;
+    background-color: green;
+}
+
+.content {
+    width: 200px;
+    height: 100px; /* Adjusted to better fit the form elements */
+    background-color: aqua;
+    color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+
+}

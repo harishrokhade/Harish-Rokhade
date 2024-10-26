@@ -1,0 +1,10 @@
+.container .content .main p {
+  background-color: aqua;
+}
+.container .content .main a {
+  color: blue;
+}
+.container .content .main img {
+  width: 100px;
+  height: 200px;
+}/*# sourceMappingURL=style.css.map */

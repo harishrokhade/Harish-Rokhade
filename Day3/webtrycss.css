@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+ul li {
+    display: inline;
+    margin-right: 10px;
+}
+ul li a {
+    text-decoration: underline;
+    color: black;
+}
+ul li a:hover {   
+    color: red;
+}
+.header {
+    /* background-color: gray; */
+    background-image: url('https://images.unsplash.com/photo-1647816733947-fa58811c75e9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGFwZXIlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww;');
+    height: 200px;
+}
